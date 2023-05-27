@@ -57,6 +57,7 @@ function getCountOfCountries(videos) {
     return countries;
 }
 
+console.log("Executing script");
 getVideos().then(videos => {
     console.log(getCountOfHd(videos));
     console.log(getCountOfCountries(videos));
